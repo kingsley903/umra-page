@@ -477,3 +477,16 @@ border-radius: 10px;
   flex-wrap: wrap;
   text-align: center;
 }
+
+.bg-purple-subtle {
+  background-color: #E6E6FA !important;
+}
+.text-purple {
+  color: #8A2BE2 !important;
+}
+.bg-orange-subtle {
+  background-color: #FFF5E6 !important;
+}
+.text-orange {
+  color: #FF8C00 !important;
+}

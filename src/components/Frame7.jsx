@@ -8,7 +8,11 @@ const Frame7 = () => {
       style={{ backgroundColor: "#F8F9FA" }}
     >
       <div className="container text-center py-5">
-        <p className="text-primary fw-bold mb-1">→ How UMRA Works</p>
+        <div className="row center">
+          <p className="text-primary fw-bold mb-1 how-hder px-1 py-1 rounded-5 col-lg-3 col-sm-12">
+            <img alt="Container" src="../icons/variant=55.png" /> How UMRA Works
+          </p>
+        </div>
         <h1 className="fw-bold display-5">
           Simple, Smart, and Always{" "}
           <span className="text-primary">Connected</span>
@@ -28,8 +32,8 @@ const Frame7 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
               <div className="d-flex align-items-center mb-3">
-                <div className="bg-primary-subtle p-2 rounded-3 me-3">
-                  <i className="bi bi-graph-up text-primary fs-4"></i>
+                <div className="bg-primary p-2 rounded-3 me-3">
+                  <img alt="Container" src="../icons/variant=56.png" />
                 </div>
                 <h5 className="card-title fw-bold mb-0">Track Your Vitals</h5>
               </div>
@@ -37,6 +41,16 @@ const Frame7 = () => {
                 Connect your BP & sugar stats to get real-time updates with
                 intelligent insights.
               </p>
+              <div className="progress mt-2" style={{ height: "5px" }}>
+                <div
+                  className="progress-bar bg-danger"
+                  role="progressbar"
+                  style={{ width: "0%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
 
@@ -44,8 +58,8 @@ const Frame7 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
               <div className="d-flex align-items-center mb-3">
-                <div className="bg-success-subtle p-2 rounded-3 me-3">
-                  <i className="bi bi-chat-left-dots text-success fs-4"></i>
+                <div className="bg-success p-2 rounded-3 me-3">
+                  <img alt="Container" src="../icons/variant=57.png" />
                 </div>
                 <h5 className="card-title fw-bold mb-0">Get Smart Advice</h5>
               </div>
@@ -53,6 +67,16 @@ const Frame7 = () => {
                 AI + doctors deliver personalized care recommendations based on
                 your health data.
               </p>
+              <div className="progress mt-2" style={{ height: "5px" }}>
+                <div
+                  className="progress-bar bg-danger"
+                  role="progressbar"
+                  style={{ width: "0%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
 
@@ -60,8 +84,11 @@ const Frame7 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
               <div className="d-flex align-items-center mb-3">
-                <div className="bg-purple-subtle p-2 rounded-3 me-3">
-                  <i className="bi bi-card-checklist text-purple fs-4"></i>
+                <div
+                  className="bg-purple p-2 rounded-3 me-3"
+                  style={{ backgroundColor: "hsl(265.62deg 100% 65.1%)" }}
+                >
+                  <img alt="Container" src="../icons/variant=58.png" />
                 </div>
                 <h5 className="card-title fw-bold mb-0">Medication Logs</h5>
               </div>
@@ -69,6 +96,16 @@ const Frame7 = () => {
                 Keep your treatment history and prescriptions organized with
                 smart reminders.
               </p>
+              <div className="progress mt-2" style={{ height: "5px" }}>
+                <div
+                  className="progress-bar bg-danger"
+                  role="progressbar"
+                  style={{ width: "0%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
 
@@ -76,11 +113,9 @@ const Frame7 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
               <div className="d-flex align-items-center mb-3">
-                <div className="bg-warning-subtle p-2 rounded-3 me-3 position-relative">
-                  <i className="bi bi-smartwatch text-warning fs-4"></i>
-                  <span className="badge text-bg-secondary position-absolute top-0 start-100 translate-middle rounded-pill">
-                    Coming Soon
-                  </span>
+                <div className="bg-warning p-2 rounded-3 me-3 position-relative">
+                  <img alt="Container" src="../icons/variant=59.png" />
+                  <span className="badge coming-soon">Coming Soon</span>
                 </div>
                 <h5 className="card-title fw-bold mb-0">
                   Wearable Integration
@@ -90,15 +125,25 @@ const Frame7 = () => {
                 Sync your wearables for 360° health monitoring and continuous
                 tracking.
               </p>
+              <div className="progress mt-2" style={{ height: "5px" }}>
+                <div
+                  className="progress-bar bg-danger"
+                  role="progressbar"
+                  style={{ width: "0%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
 
           {/* Card 5: Mobile Medical Bank */}
           <div className="col-lg-4 col-md-6">
-            <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
+            <div className="card h-100 p-4 rounded-3 shadow-sm border-0 bg-info-subtle">
               <div className="d-flex align-items-center mb-3">
-                <div className="bg-info-subtle p-2 rounded-3 me-3">
-                  <i className="bi bi-wallet2 text-info fs-4"></i>
+                <div className="bg-info p-2 rounded-3 me-3">
+                  <img alt="Container" src="../icons/variant=60.png" />
                 </div>
                 <h5 className="card-title fw-bold mb-0">Mobile Medical Bank</h5>
               </div>
@@ -106,15 +151,50 @@ const Frame7 = () => {
                 Your medical records, always with you. Share with doctors
                 instantly.
               </p>
-              <ul className="list-unstyled mt-3">
-                <li className="d-flex justify-content-between align-items-center text-primary-emphasis mb-2">
-                  Blood Test Results <i className="bi bi-arrow-right"></i>
+              <div className="progress mt-2" style={{ height: "5px" }}>
+                <div
+                  className="progress-bar bg-sucess"
+                  role="progressbar"
+                  style={{ width: "50%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <ul className="list-unstyled mt-3 bg-white py-2 px-2 rounded-2">
+                <li className="d-flex align-items-center justify-content-between text-primary-emphasis mb-2">
+                  <span>
+                    {" "}
+                    <span className="text-primary">● </span> Blood Test Results{" "}
+                  </span>
+                  <img
+                    className="aline-self-end"
+                    alt="Container"
+                    src="../icons/variant=42.png"
+                  />
                 </li>
-                <li className="d-flex justify-content-between align-items-center text-primary-emphasis mb-2">
-                  Prescription History <i className="bi bi-arrow-right"></i>
+                <li className="d-flex align-items-center justify-content-between text-primary-emphasis mb-2">
+                  <span>
+                    {" "}
+                    <span className="text-primary">● </span> Prescription
+                    History{" "}
+                  </span>
+                  <img
+                    className="aline-self-end"
+                    alt="Container"
+                    src="../icons/variant=42.png"
+                  />
                 </li>
-                <li className="d-flex justify-content-between align-items-center text-primary-emphasis">
-                  Doctor Notes <i className="bi bi-arrow-right"></i>
+                <li className="d-flex align-items-center justify-content-between text-primary-emphasis">
+                  <span>
+                    {" "}
+                    <span className="text-primary">● </span> Doctor Notes{" "}
+                  </span>
+                  <img
+                    className="aline-self-end"
+                    alt="Container"
+                    src="../icons/variant=42.png"
+                  />
                 </li>
               </ul>
             </div>
@@ -139,8 +219,8 @@ const Frame7 = () => {
           <div className="row justify-content-center text-center">
             {/* Step 1 */}
             <div className="col-md-4 mb-4">
-              <div className="d-inline-flex bg-primary-subtle rounded-circle p-3 mb-3">
-                <i className="bi bi-graph-up text-primary fs-3"></i>
+              <div className="d-inline-flex bg-primary rounded-circle p-2 mb-3">
+                <img alt="Container" src="../icons/variant=56.png" />
               </div>
               <h5 className="fw-bold">Step 1</h5>
               <p className="fw-bold text-primary">Connect & Track</p>
@@ -151,8 +231,8 @@ const Frame7 = () => {
             </div>
             {/* Step 2 */}
             <div className="col-md-4 mb-4">
-              <div className="d-inline-flex bg-success-subtle rounded-circle p-3 mb-3">
-                <i className="bi bi-robot text-success fs-3"></i>
+              <div className="d-inline-flex bg-success rounded-circle p-2 mb-3">
+                <img alt="Container" src="../icons/variant=57.png" />
               </div>
               <h5 className="fw-bold">Step 2</h5>
               <p className="fw-bold text-success">Get AI insights</p>
@@ -162,8 +242,8 @@ const Frame7 = () => {
             </div>
             {/* Step 3 */}
             <div className="col-md-4 mb-4">
-              <div className="d-inline-flex bg-purple-subtle rounded-circle p-3 mb-3">
-                <i className="bi bi-heart-pulse-fill text-purple fs-3"></i>
+              <div className="d-inline-flex rounded-circle p-2 mb-3 step-three">
+                <img alt="Container" src="../icons/variant=67.png" />
               </div>
               <h5 className="fw-bold">Step 3</h5>
               <p className="fw-bold text-purple">Stay Healthy</p>

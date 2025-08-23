@@ -11,41 +11,68 @@ const Frame6 = () => {
         <div className="row">
           {/* Left Column */}
           <div className="col-lg-6 mb-4">
-            <p className="text-danger fw-bold mb-1">→ Healthcare Challenge</p>
-            <h1 className="fw-bold display-5">
+            <div className="row col-lg-12">
+              {" "}
+              <p className="text-danger text-center fw-bold mb-1 px-2 py-1 rounded-5 heath-b col-lg-5 col-sm-12">
+                {" "}
+                <img alt="Container" src="../icons/variant=50.png" /> Healthcare
+                Challenge
+              </p>
+            </div>
+            <h1 className="fw-bold lh-1 display-5">
               Struggling to manage chronic conditions or monitor your{" "}
-              <span className="text-warning">health consistently</span>?
+              <span className="text-danger">health consistently</span>?
             </h1>
             <p className="mt-4">
-              <span className="fw-bold">UMRA</span> makes it easier with
-              real-time, AI-powered health monitoring and advice right from your
-              phone—no hospital queues, no guesswork, no delays.
+              <span className="fw-bold text-primary">UMRA</span> makes it easier
+              with real-time, AI-powered health monitoring and advice right from
+              your phone—no hospital queues, no guesswork, no delays.
             </p>
 
-            <div className="d-flex flex-wrap my-4">
+            <div className="d-flex small-gap my-4">
               <div
-                className="p-4 me-3 rounded-3 shadow-sm"
+                className="p-4 col-lg-6 col-sm-12 rounded-3 shadow-sm"
                 style={{
                   backgroundColor: "#FFFFFF",
                   border: "1px solid #E0E0E0",
                 }}
               >
-                <h2 className="fw-bold text-primary">285M</h2>
+                <h2 className="fw-bold text-danger">285M</h2>
                 <p className="text-secondary mb-0">
                   People worldwide with chronic conditions
                 </p>
+                <div className="progress mt-2" style={{ height: "5px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "60%" }}
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </div>
               <div
-                className="p-4 rounded-3 shadow-sm"
+                className="p-4 col-lg-6 col-sm-12 rounded-3 shadow-sm"
                 style={{
                   backgroundColor: "#FFFFFF",
                   border: "1px solid #E0E0E0",
                 }}
               >
-                <h2 className="fw-bold text-success">$4.1T</h2>
+                <h2 className="fw-bold text-danger">$4.1T</h2>
                 <p className="text-secondary mb-0">
                   Annual healthcare costs globally
                 </p>
+                <div className="progress mt-2" style={{ height: "5px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "60%" }}
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </div>
             </div>
 
@@ -86,8 +113,8 @@ const Frame6 = () => {
             >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-2">
-                  <div className="bg-danger-subtle p-2 rounded-circle me-3">
-                    <i className="bi bi-exclamation-triangle-fill text-danger fs-5"></i>
+                  <div className="bg-danger p-2 rounded-circle me-3">
+                    <img alt="Container" src="../icons/variant=52.png" />
                   </div>
                   <h5 className="card-title mb-0 fw-bold">
                     Inconsistent Monitoring
@@ -122,8 +149,8 @@ const Frame6 = () => {
             >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-2">
-                  <div className="bg-warning-subtle p-2 rounded-circle me-3">
-                    <i className="bi bi-clock-fill text-warning fs-5"></i>
+                  <div className="bg-warning p-2 rounded-circle me-3">
+                    <img alt="Container" src="../icons/variant=53.png" />
                   </div>
                   <h5 className="card-title mb-0 fw-bold">
                     Long Hospital Queues
@@ -158,8 +185,8 @@ const Frame6 = () => {
             >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-2">
-                  <div className="bg-warning-subtle p-2 rounded-circle me-3">
-                    <i className="bi bi-person-fill text-warning fs-5"></i>
+                  <div className="bg-warning p-2 rounded-circle me-3">
+                    <img alt="Container" src="../icons/variant=54.png" />
                   </div>
                   <h5 className="card-title mb-0 fw-bold">
                     Limited Access to Care

@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Frame8 = () => {
   const cardData = [
     {
-      icon: "bi-person-fill",
-      iconBg: "bg-primary-subtle",
+      icon: "../icons/variant=69.png",
+      iconBg: "bg-primary",
       iconColor: "text-primary",
       title: "Personalized Health Feedback",
       description:
@@ -15,8 +15,8 @@ const Frame8 = () => {
       statColor: "text-primary",
     },
     {
-      icon: "bi-graph-up",
-      iconBg: "bg-success-subtle",
+      icon: "../icons/variant=71.png",
+      iconBg: "bg-success",
       iconColor: "text-success",
       title: "Long-term Health Tracking",
       description:
@@ -26,8 +26,8 @@ const Frame8 = () => {
       statColor: "text-success",
     },
     {
-      icon: "bi-heart-pulse-fill",
-      iconBg: "bg-purple-subtle",
+      icon: "../icons/variant=81.png",
+      iconBg: "bg-purple",
       iconColor: "text-purple",
       title: "Increased Independence",
       description:
@@ -37,8 +37,8 @@ const Frame8 = () => {
       statColor: "text-purple",
     },
     {
-      icon: "bi-lightning-charge-fill",
-      iconBg: "bg-orange-subtle",
+      icon: "../icons/variant=75.png",
+      iconBg: "bg-orange",
       iconColor: "text-orange",
       title: "Insightful Analytics",
       description:
@@ -48,8 +48,8 @@ const Frame8 = () => {
       statColor: "text-orange",
     },
     {
-      icon: "bi-grid-fill",
-      iconBg: "bg-info-subtle",
+      icon: "../icons/variant=77.png",
+      iconBg: "bg-info",
       iconColor: "text-info",
       title: "Digital Medical Ecosystem",
       description:
@@ -66,7 +66,12 @@ const Frame8 = () => {
       style={{ backgroundColor: "#F8F9FA" }}
     >
       <div className="container text-center py-5">
-        <p className="text-primary fw-bold mb-1">→ Why Choose UMRA</p>
+        <div className="row center">
+          <p className="text-primary fw-bold mb-1 how-hder px-1 py-1 rounded-5 col-lg-3 col-sm-12">
+            <img alt="Container" src="../icons/variant=55.png" /> Why Choose
+            UMRA
+          </p>
+        </div>
         <h1 className="fw-bold display-5">
           Experience the <span className="text-primary">Benefits</span> of
           Intelligent Health Monitoring
@@ -87,7 +92,7 @@ const Frame8 = () => {
               <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
                 <div className="d-flex align-items-center mb-3">
                   <div className={`p-2 rounded-3 me-3 ${card.iconBg}`}>
-                    <i className={`bi ${card.icon} ${card.iconColor} fs-4`}></i>
+                    <img alt="Container" src={`${card.icon}`} />
                   </div>
                   <h5 className="card-title fw-bold mb-0">{card.title}</h5>
                 </div>
@@ -122,22 +127,22 @@ const Frame8 = () => {
           </p>
           <div className="row justify-content-around mt-4">
             <div className="col-6 col-md-3 mb-3">
-              <i className="bi bi-people-fill fs-1"></i>
+             <img src="../icons/variant=79.png" />
               <h3 className="fw-bold mt-2">50K+</h3>
               <p>Active Users</p>
             </div>
             <div className="col-6 col-md-3 mb-3">
-              <i className="bi bi-star-fill fs-1"></i>
+               <img src="../icons/variant=69.png" />
               <h3 className="fw-bold mt-2">95%</h3>
               <p>Satisfaction Rate</p>
             </div>
             <div className="col-6 col-md-3 mb-3">
-              <i className="bi bi-clock-fill fs-1"></i>
+              <img src="../icons/variant=81.png" />
               <h3 className="fw-bold mt-2">24/7</h3>
               <p>Health Monitoring</p>
             </div>
             <div className="col-6 col-md-3 mb-3">
-              <i className="bi bi-bar-chart-fill fs-1"></i>
+              <img src="../icons/variant=75.png" />
               <h3 className="fw-bold mt-2">100+</h3>
               <p>Daily Insights</p>
             </div>

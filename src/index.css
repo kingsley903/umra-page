@@ -420,11 +420,50 @@ color: rgb(74 85 101);
 background-color: rgb(249 134 0);
 border-radius: 10px;
 }
+.small-gap{
+  gap: 10px;
+}
+.heath-b {
+    width: auto;
+    background-color: #ff000040;
+}
+
+.how-hder{
+  background-color: #365df042;
+  width: auto;
+}
+
+.container .g-4 .col-lg-4 .card p{
+  font-size: 13px;
+}
+
+.coming-soon {
+    color: red ! IMPORTANT;
+    position: absolute;
+    background-color: #dcabab;
+    top: -18px;
+    right: -42vh;
+}
+
+.step-three{
+  background-color: #8A2BE2;
+}
+
+.bg-orange{
+  background-color: #FF8C00;
+}
+.bg-purple{
+  background-color: #8A2BE2;
+}
+.healthcare {
+    background-color: rgb(25 135 84 / 29%);
+}
 
 @media (max-width: 576px) {
 
-  .frame2section {
-  padding: 20px;
+.small-gap{
+
+  flex-wrap: wrap;
 }
   
 }

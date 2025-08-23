@@ -9,9 +9,11 @@ const Frame9 = () => {
     >
       {/* Main Hero Section */}
       <div className="container text-center py-5">
-        <p className="text-success fw-bold mb-1">
-          → Healthcare Innovation Leaders
-        </p>
+        <div className="row center bg-sucess-subtle">
+          <p className="text-success fw-bold mb-1 healthcare py-1 px-2 rounded-4 col-lg-4 col-sm-12">
+            <img src="../icons/variant=55.png" /> Healthcare Innovation Leaders
+          </p>
+        </div>
         <h1 className="fw-bold display-5">
           Revolutionizing Healthcare{" "}
           <span className="text-purple">Across Africa</span>
@@ -71,7 +73,11 @@ const Frame9 = () => {
 
           {/* Investment Opportunity */}
           <div className="col-lg-6 mb-4">
-            <h4 className="fw-bold mb-3">Investment Opportunity</h4>
+            <h4 className="fw-bold mb-3">
+              {" "}
+              <img src="../icons/variant=1.png" />
+              Investment Opportunity
+            </h4>
             <ul className="list-group rounded-3 shadow-sm border-0">
               <li className="list-group-item d-flex justify-content-between align-items-center py-3 bg-light fw-bold">
                 Total Addressable Market{" "}
@@ -145,41 +151,41 @@ const Frame9 = () => {
                 <div className="col-6">
                   <div
                     className="p-4 rounded-3 text-center"
-                    style={{ backgroundColor: "#e9f1ff" }}
+                    style={{ backgroundColor: "hsl(219.28deg 98.24% 55.49%)" }}
                   >
-                    <i className="bi bi-graph-up fs-2 text-primary"></i>
-                    <h3 className="fw-bold mt-2">500%</h3>
-                    <p className="text-secondary mb-0">YoY Growth Rate</p>
+                    <img src="../icons/variant=2.png" />
+                    <h3 className="fw-bold mt-2 text-white">500%</h3>
+                    <p className="text-white mb-0">YoY Growth Rate</p>
                   </div>
                 </div>
                 <div className="col-6">
                   <div
                     className="p-4 rounded-3 text-center"
-                    style={{ backgroundColor: "#e6fff2" }}
+                    style={{ backgroundColor: "hsl(142.67deg 98.9% 35.69%)" }}
                   >
-                    <i className="bi bi-person-fill fs-2 text-success"></i>
-                    <h3 className="fw-bold mt-2">50+</h3>
-                    <p className="text-secondary mb-0">Expert Team Members</p>
+                    <img src="../icons/variant=3.png" />
+                    <h3 className="fw-bold mt-2 text-white">50+</h3>
+                    <p className="text-white mb-0">Expert Team Members</p>
                   </div>
                 </div>
                 <div className="col-6">
                   <div
                     className="p-4 rounded-3 text-center"
-                    style={{ backgroundColor: "#EFE0FF" }}
+                    style={{ backgroundColor: "hsl(274.12deg 98.14% 57.84%)" }}
                   >
-                    <i className="bi bi-people-fill fs-2 text-purple"></i>
-                    <h3 className="fw-bold mt-2">15</h3>
-                    <p className="text-secondary mb-0">Countries Served</p>
+                    <img src="../icons/variant=4.png" />
+                    <h3 className="fw-bold mt-2 text-white">15</h3>
+                    <p className="text-white mb-0">Countries Served</p>
                   </div>
                 </div>
                 <div className="col-6">
                   <div
                     className="p-4 rounded-3 text-center"
-                    style={{ backgroundColor: "#FFF5E6" }}
+                    style={{ backgroundColor: "hsl(20.64deg 100% 49.02%)" }}
                   >
-                    <i className="bi bi-person-heart fs-2 text-orange"></i>
-                    <h3 className="fw-bold mt-2">3</h3>
-                    <p className="text-secondary mb-0">Patents Pending</p>
+                    <img src="../icons/variant=5.png" />
+                    <h3 className="fw-bold mt-2 text-white">3</h3>
+                    <p className="text-white mb-0">Patents Pending</p>
                   </div>
                 </div>
               </div>
@@ -204,10 +210,13 @@ const Frame9 = () => {
           </p>
           <div className="d-flex flex-column flex-md-row justify-content-center mt-4">
             <button className="btn btn-light rounded-pill px-4 me-md-3 mb-2 mb-md-0 fw-bold">
-              Request Investment Deck
+              <img src="../icons/variant=75.png" /> Request Investment Deck
             </button>
             <button className="btn btn-outline-light rounded-pill px-4 fw-bold">
-              Schedule Investment Meeting
+              <span>
+                <img src="../icons/variant=7.png" /> Schedule Investment Meeting{" "}
+                <img src="../icons/variant=8.png" />
+              </span>
             </button>
           </div>
           <p className="text-white-50 small mt-3">

@@ -2,10 +2,6 @@ import React from "react";
 
 import "./index.css";
 import Section from "./components/HeroSection";
-///import { Frame2 } from "./components/Frame2Section";
-//import { Frame3 } from "./components/Frame3Section";
-//import { Frame4 } from "./components/Frame4Section";
-//import { Frame5 } from "./components/Frame5Section";
 import Frame6 from "./components/Frame6section";
 import Frame7 from "./components/Frame7";
 import Frame8 from "./components/Frame8";
@@ -21,10 +17,6 @@ function App() {
     <div>
       <Header />
       <Section />
-      {/*<Frame2 /> */}
-      {/*<Frame3 /> */}
-      {/*<Frame4 /> */}
-      {/*<Frame5 /> */}
       <Frame6 />
       <Frame7 />
       <Frame8 />

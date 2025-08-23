@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./index.css";
-import { Section } from "./components/HeroSection";
+import Section from "./components/HeroSection";
 ///import { Frame2 } from "./components/Frame2Section";
 //import { Frame3 } from "./components/Frame3Section";
 //import { Frame4 } from "./components/Frame4Section";

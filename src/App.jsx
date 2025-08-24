@@ -15,12 +15,13 @@ import FAQSection from "./components/Frame11";
 import Frame12 from "./components/Frame12";
 import Footer from "./components/Frame13";
 import Header from "./components/Header";
+import { Frame1 } from "./components/Frame1section";
 
 function App() {
   return (
     <div>
       <Header />
-
+      <Frame1 />
       {/*<Frame2 /> */}
       {/*<Frame3 /> */}
       {/*<Frame4 /> */}

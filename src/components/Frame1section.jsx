@@ -1,4 +1,4 @@
-export const Section = () => {
+export const Frame1 = () => {
   return (
     <div className="herosection-container">
       <div className="herosection row">

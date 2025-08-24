@@ -22,6 +22,7 @@ function App() {
     <div>
       <Header />
       <HeroSection />
+
       {/*<Frame2 /> */}
       {/*<Frame3 /> */}
       {/*<Frame4 /> */}

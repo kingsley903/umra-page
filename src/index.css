@@ -298,7 +298,7 @@ p {
 }
 
 .frame2bg-white {
-    background-color: #fff;
+    background-color: hsl(234.73deg 42.33% 42.16%);
     border-radius: 10px;
     padding: 10px 15px;
     display: flex;
@@ -457,6 +457,11 @@ border-radius: 10px;
 }
 .healthcare {
     background-color: rgb(25 135 84 / 29%);
+}
+
+.round-images {
+  width: fit-content;
+    justify-self: anchor-center;
 }
 
 @media (max-width: 576px) {

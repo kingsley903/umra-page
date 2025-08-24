@@ -9,21 +9,21 @@ const Frame10 = () => {
         "UMRA represents a breakthrough in chronic disease management. The AI insights are remarkably accurate, and the platform's ability to monitor diverse patients across all demographics. This will revolutionize how we monitor patient health between visits.",
       name: "Dr. Amara Okafor",
       title: "Cardiologist, Lagos University Hospital",
-      avatar: "https://via.placeholder.com/80",
+      avatar: "../icons/variant=55.png",
     },
     {
       quote:
         "As someone managing type 2 diabetes, UMRA has been life-changing. The real-time monitoring and AI advice have given me a level of confidence I've never had before. The interface is so intuitive and knowing PonceHealth is behind it gives me complete confidence in the platform.",
       name: "Sarah Mwamgi",
       title: "Business Analyst, Nairobi",
-      avatar: "https://via.placeholder.com/80",
+      avatar: "../icons/variant=55.png",
     },
     {
       quote:
         "The potential of UMRA to address healthcare accessibility challenges in Africa is enormous. The technology is seamless, and the emphasis on a community of chronic disease management addresses one of our continent's most pressing health challenges. PonceHealth has created something truly special.",
       name: "Prof. David Akinto",
       title: "Public Health Researcher, Ghana",
-      avatar: "https://via.placeholder.com/80",
+      avatar: "../icons/variant=55.png",
     },
   ];
 
@@ -52,8 +52,10 @@ const Frame10 = () => {
         <div className="row g-4 justify-content-center mt-4">
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
-              <i className="bi bi-person-check-fill fs-1 text-primary"></i>
-              <h3 className="fw-bold mt-2">50+</h3>
+              <div class="p-2 rounded-3 me-3 bg-primary round-images">
+                <img alt="Container" src="../icons/variant=69.png" />
+              </div>
+              <h3 className="text-primary fw-bold mt-2">50+</h3>
               <p className="text-secondary mb-0">Expert Team</p>
               <p className="small text-muted mt-2">
                 10+ passionate health and tech experts with a proven track
@@ -63,8 +65,10 @@ const Frame10 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
-              <i className="bi bi-puzzle-fill fs-1 text-success"></i>
-              <h3 className="fw-bold mt-2">15+</h3>
+              <div class="p-2 rounded-3 me-3 bg-primary round-images">
+                <img alt="Container" src="../icons/variant=69.png" />
+              </div>
+              <h3 className="text-primary fw-bold mt-2">15+</h3>
               <p className="text-secondary mb-0">Strategic Partnerships</p>
               <p className="small text-muted mt-2">
                 Active partnerships with SwiftAir Ambulance and local hospitals
@@ -74,8 +78,10 @@ const Frame10 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
-              <i className="bi bi-shield-lock-fill fs-1 text-purple"></i>
-              <h3 className="fw-bold mt-2">100%</h3>
+              <div class="p-2 rounded-3 me-3 bg-primary round-images">
+                <img alt="Container" src="../icons/variant=69.png" />
+              </div>
+              <h3 className="text-primary fw-bold mt-2">100%</h3>
               <p className="text-secondary mb-0">Regulatory Compliance</p>
               <p className="small text-muted mt-2">
                 HIPAA compliance certification in progress, ensuring the highest
@@ -85,8 +91,10 @@ const Frame10 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
-              <i className="bi bi-unlock-fill fs-1 text-warning"></i>
-              <h3 className="fw-bold mt-2">1000+</h3>
+              <div class="p-2 rounded-3 me-3 bg-primary round-images">
+                <img alt="Container" src="../icons/variant=69.png" />
+              </div>
+              <h3 className="text-primary fw-bold mt-2">1000+</h3>
               <p className="text-secondary mb-0">Early Access Ready</p>
               <p className="small text-muted mt-2">
                 Beta platform tested with 1000+ users, ready for widespread user

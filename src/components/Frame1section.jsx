@@ -1,6 +1,7 @@
 export const Frame1 = () => {
   return (
-    <>
+    // START OF THE NEW WRAPPING DIV
+    <div>
       <div className="herosection-container">
         <div className="herosection row">
           <div className="col-lg-7 col-sm-12 hero-first hero-container row self-center">
@@ -21,8 +22,7 @@ export const Frame1 = () => {
 
             <h2 className="in-real-time">In Real Time.</h2>
             <p className="umra-by-poncehealth">
-              UMRA by PonceHealth revolutionizes chronic health management
-              across
+              UMRA by PonceHealth revolutionizes chronic health management across
               <br />
               Africa. Track your blood pressure and sugar levels, get instant AI
               advice, and
@@ -45,8 +45,7 @@ export const Frame1 = () => {
 
               <p className="hero-first-smallest">
                 {" "}
-                🔥 Join 10,000+ users • Free during beta • No credit card
-                required
+                🔥 Join 10,000+ users • Free during beta • No credit card required
               </p>
             </div>
 
@@ -88,7 +87,7 @@ export const Frame1 = () => {
             <div className="hero-footer">
               <div className="hero-footer-container">
                 <button className="footer-content col-lg-12">
-                  Discover UMRA&#39;s features
+                  Discover UMRA's features
                 </button>
 
                 <div className="footer-line"></div>
@@ -99,6 +98,7 @@ export const Frame1 = () => {
           <div className="col-lg-5 col-sm-12 hero-second hero-container row self-center"></div>
         </div>
       </div>
-    </>
+    </div>
+    // END OF THE NEW WRAPPING DIV
   );
 };

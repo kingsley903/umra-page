@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container">
         <Navbar.Brand href="#home" className="d-flex align-items-center">
           <img
-            src="path/to/your/logo.svg" // Replace with your logo path
+            src="../assets/logo.png" // Replace with your logo path
             alt="PonceHealth Logo"
             height="30"
             className="d-inline-block align-top me-2"

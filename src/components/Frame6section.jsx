@@ -31,7 +31,7 @@ const Frame6 = () => {
 
             <div className="d-flex small-gap my-4">
               <div
-                className="p-4 col-lg-6 col-sm-12 rounded-3 shadow-sm"
+                className="p-4 col-lg-6 col-sm-6 rounded-3 shadow-sm"
                 style={{
                   backgroundColor: "#FFFFFF",
                   border: "1px solid #E0E0E0",
@@ -53,7 +53,7 @@ const Frame6 = () => {
                 </div>
               </div>
               <div
-                className="p-4 col-lg-6 col-sm-12 rounded-3 shadow-sm"
+                className="p-4 col-lg-6 col-sm-6 rounded-3 shadow-sm"
                 style={{
                   backgroundColor: "#FFFFFF",
                   border: "1px solid #E0E0E0",

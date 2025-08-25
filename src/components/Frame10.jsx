@@ -10,6 +10,7 @@ const Frame10 = () => {
       name: "Dr. Amara Okafor",
       title: "Cardiologist, Lagos University Hospital",
       avatar: "../icons/variant=55.png",
+      rate: "../icons/variant=13.png",
     },
     {
       quote:
@@ -17,6 +18,7 @@ const Frame10 = () => {
       name: "Sarah Mwamgi",
       title: "Business Analyst, Nairobi",
       avatar: "../icons/variant=55.png",
+      rate: "../icons/variant=13.png",
     },
     {
       quote:
@@ -24,6 +26,7 @@ const Frame10 = () => {
       name: "Prof. David Akinto",
       title: "Public Health Researcher, Ghana",
       avatar: "../icons/variant=55.png",
+      rate: "../icons/variant=13.png",
     },
   ];
 
@@ -53,10 +56,10 @@ const Frame10 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
               <div class="p-2 rounded-3 me-3 bg-primary round-images">
-                <img alt="Container" src="../icons/variant=69.png" />
+                <img alt="Container" src="../icons/variant=9.png" />
               </div>
               <h3 className="text-primary fw-bold mt-2">50+</h3>
-              <p className="text-secondary mb-0">Expert Team</p>
+              <b><p className="text-dark mb-0">Expert Team</p></b>
               <p className="small text-muted mt-2">
                 10+ passionate health and tech experts with a proven track
                 record of success in shaping healthcare innovation across Africa
@@ -66,10 +69,10 @@ const Frame10 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
               <div class="p-2 rounded-3 me-3 bg-primary round-images">
-                <img alt="Container" src="../icons/variant=69.png" />
+                <img alt="Container" src="../icons/variant=10.png" />
               </div>
               <h3 className="text-primary fw-bold mt-2">15+</h3>
-              <p className="text-secondary mb-0">Strategic Partnerships</p>
+              <b><p className="text-dark mb-0">Strategic Partnerships</p></b>
               <p className="small text-muted mt-2">
                 Active partnerships with SwiftAir Ambulance and local hospitals
                 to expand access for healthcare providers
@@ -79,10 +82,10 @@ const Frame10 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
               <div class="p-2 rounded-3 me-3 bg-primary round-images">
-                <img alt="Container" src="../icons/variant=69.png" />
+                <img alt="Container" src="../icons/variant=11.png" />
               </div>
               <h3 className="text-primary fw-bold mt-2">100%</h3>
-              <p className="text-secondary mb-0">Regulatory Compliance</p>
+              <b><p className="text-dark mb-0">Regulatory Compliance</p></b>
               <p className="small text-muted mt-2">
                 HIPAA compliance certification in progress, ensuring the highest
                 data security and privacy protection standards
@@ -92,10 +95,10 @@ const Frame10 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="p-4 bg-light rounded-3 shadow-sm border-0 h-100">
               <div class="p-2 rounded-3 me-3 bg-primary round-images">
-                <img alt="Container" src="../icons/variant=69.png" />
+                <img alt="Container" src="../icons/variant=12.png" />
               </div>
               <h3 className="text-primary fw-bold mt-2">1000+</h3>
-              <p className="text-secondary mb-0">Early Access Ready</p>
+              <b><p className="text-dark mb-0">Early Access Ready</p></b>
               <p className="small text-muted mt-2">
                 Beta platform tested with 1000+ users, ready for widespread user
                 adoption in Q4 2024
@@ -118,6 +121,16 @@ const Frame10 = () => {
                   className="p-4 mx-2 rounded-3"
                   style={{ backgroundColor: "#ffffff", maxWidth: "450px" }}
                 >
+                  <div className="col-lg-12 testimonial-img-box">
+                    <img src={testimonial.rate} />
+                    <img src={testimonial.rate} />
+                    <img src={testimonial.rate} />
+                    <img src={testimonial.rate} />
+                    <img src={testimonial.rate} />
+                  </div>
+                  <div className="col-lg-12 testimonial-img-box pt-4">
+                    <img src="../icons/variant=18.png" />
+                  </div>
                   <p className="fst-italic text-secondary">
                     <span className="fs-3 text-muted me-2">"</span>
                     {testimonial.quote}
@@ -154,7 +167,7 @@ const Frame10 = () => {
           <div className="col-lg-6 mb-4">
             <div className="p-4 bg-light rounded-3 shadow-sm border-start border-4 border-danger h-100">
               <div className="d-flex align-items-center mb-3">
-                <i className="bi bi-ambulance fs-1 text-danger me-3"></i>
+                <i className="bi bi-truck fs-1 text-danger me-3"></i>
                 <div>
                   <h5 className="fw-bold mb-0">SwiftAir Ambulance</h5>
                   <p className="text-secondary small mb-0">
@@ -213,21 +226,25 @@ const Frame10 = () => {
             </div>
             <div className="col-md-6">
               <div className="row g-3 text-center">
-                <div className="col-6">
-                  <h5 className="fw-bold mb-1">256-bit</h5>
-                  <p className="small mb-0">Encryption</p>
+                <div className="col-lg-12 f10gap-s">
+                  <div className="col-6 me-3 py-4 rounded-3">
+                    <h5 className="fw-bold mb-1">256-bit</h5>
+                    <p className="small mb-0">Encryption</p>
+                  </div>
+                  <div className="col-6 me-3 py-4 rounded-3">
+                    <h5 className="fw-bold mb-1">ISO 27001</h5>
+                    <p className="small mb-0">Certified</p>
+                  </div>
                 </div>
-                <div className="col-6">
-                  <h5 className="fw-bold mb-1">ISO 27001</h5>
-                  <p className="small mb-0">Certified</p>
-                </div>
-                <div className="col-6">
-                  <h5 className="fw-bold mb-1">99.9%</h5>
-                  <p className="small mb-0">Uptime SLA</p>
-                </div>
-                <div className="col-6">
-                  <h5 className="fw-bold mb-1">24/7</h5>
-                  <p className="small mb-0">Monitoring</p>
+                <div className="col-lg-12 f10gap-s">
+                  <div className="col-6 me-3 py-4 rounded-3">
+                    <h5 className="fw-bold mb-1">99.9%</h5>
+                    <p className="small mb-0">Uptime SLA</p>
+                  </div>
+                  <div className="col-6 me-3 py-4 rounded-3">
+                    <h5 className="fw-bold mb-1">24/7</h5>
+                    <p className="small mb-0">Monitoring</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,13 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 const HeroSection = () => {
   return (
     <div
-      className="container-fluid d-flex justify-content-center align-items-center"
+      className="container-fluid d-flex justify-content-center align-items-center py-5"
       style={{
-        height: "100vh",
         backgroundImage: "url(../assets/Section1.png)", // Replace with your background image path
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -20,7 +18,8 @@ const HeroSection = () => {
               className="display-3 fw-bold mb-4 text-white"
               style={{ fontSize: "3.5rem" }}
             >
-              Your Health, In Your <br /><span className="text-primary"> Hands.</span>
+              Your Health, In Your <br />
+              <span className="text-primary"> Hands.</span>
             </h1>
             <p className="lead text-white mb-4">
               Real-time, AI-powered insights for better chronic condition
@@ -31,47 +30,39 @@ const HeroSection = () => {
                 href="#early-access"
                 className="btn btn-primary text-primary btn-lg rounded-4 px-5 me-md-3 mb-2 mb-md-0 fw-bold"
                 style={{
-     
                   border: "none",
-                  background: "#fff"
+                  background: "#fff",
                 }}
               >
-                Join Early Access      
-                           <img src="../icons/variant=87.png" />
+                Join Early Access
+                <img src="../icons/variant=87.png" />
               </a>
-   
             </div>
 
             <p className="text-white">Join early </p>
 
+            <div className="frame2-boxes col-lg-12">
+              <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
+                <div className="frame2bg-white text-center">
+                  <h1 className="col-lg-12 text-white">10,000+</h1>
+                  <p className="col-lg-12 text-white">Beta User </p>
+                </div>
+              </div>
 
-            
-          <div className="frame2-boxes col-lg-12">
-            <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
-              <div className="frame2bg-white text-center">
-                <h1 className="col-lg-12 text-white">10,000+</h1>
-                <p className="col-lg-12 text-white">Beta User </p>
-              
-                              </div>
+              <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
+                <div className="frame2bg-white text-center">
+                  <h1 className="col-lg-12 text-white">95%</h1>
+                  <p className="col-lg-12 text-white">AI Accuracy </p>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
+                <div className="frame2bg-white text-center">
+                  <h1 className="col-lg-12 text-white">255m</h1>
+                  <p className="col-lg-12 text-white">Monitoring</p>
+                </div>
+              </div>
             </div>
-
-           <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
-              <div className="frame2bg-white text-center">
-                <h1 className="col-lg-12 text-white">95%</h1>
-                   <p className="col-lg-12 text-white">AI Accuracy </p>
-              
-                              </div>
-            </div>
-
-
-            <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
-              <div className="frame2bg-white text-center">
-                <h1 className="col-lg-12 text-white">255m</h1>
-                   <p className="col-lg-12 text-white">Monitoring</p>
-              
-                              </div>
-            </div>
-          </div>
 
             <div
               className="d-flex flex-column flex-md-row align-items-center p-3 mt-5 rounded-3 shadow"

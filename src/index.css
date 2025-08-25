@@ -436,13 +436,13 @@ border-radius: 10px;
 .container .g-4 .col-lg-4 .card p{
   font-size: 13px;
 }
-
 .coming-soon {
     color: red ! IMPORTANT;
     position: absolute;
     background-color: #dcabab;
-    top: -18px;
-    right: -42vh;
+    top: 0;
+    right: 0;
+    text-emphasis-style: triangle open;
 }
 
 .step-three{
@@ -464,12 +464,26 @@ border-radius: 10px;
     justify-self: anchor-center;
 }
 
+.f10gap-s{
+  display: flex;
+  gap: 10px;
+}
+
+.f10gap-s div {
+    background-color: #3d32c0;
+    box-shadow: 1px 0px 20px 5px #0000ff00;
+}
+
+
+
+
+
+ .testimonial-img-box{
+display: flex;
+ }
+
 @media (max-width: 576px) {
 
-.small-gap{
-
-  flex-wrap: wrap;
-}
   
 }
 

@@ -113,9 +113,10 @@ const Frame7 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="card h-100 p-4 rounded-3 shadow-sm border-0">
               <div className="d-flex align-items-center mb-3">
+                   <span className="badge coming-soon">Coming Soon</span>
                 <div className="bg-warning p-2 rounded-3 me-3 position-relative">
                   <img alt="Container" src="../icons/variant=59.png" />
-                  <span className="badge coming-soon">Coming Soon</span>
+               
                 </div>
                 <h5 className="card-title fw-bold mb-0">
                   Wearable Integration

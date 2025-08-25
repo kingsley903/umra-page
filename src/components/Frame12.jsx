@@ -1,7 +1,43 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Frame12 = () => {
+  const [counts, setCounts] = useState({
+    users: 0,
+    partners: 0,
+    satisfaction: 0,
+  });
+  const finalValues = {
+    users: 10000,
+    partners: 50,
+    satisfaction: 95,
+  };
+  const duration = 2000; // Animation duration in milliseconds
+
+  useEffect(() => {
+    const startTimestamp = performance.now();
+    const animateCount = (timestamp) => {
+      const progress = timestamp - startTimestamp;
+      const newCounts = {};
+
+      if (progress < duration) {
+        newCounts.users = Math.floor((progress / duration) * finalValues.users);
+        newCounts.partners = Math.floor(
+          (progress / duration) * finalValues.partners
+        );
+        newCounts.satisfaction = Math.floor(
+          (progress / duration) * finalValues.satisfaction
+        );
+        setCounts(newCounts);
+        requestAnimationFrame(animateCount);
+      } else {
+        // Set final values when animation is complete
+        setCounts(finalValues);
+      }
+    };
+    requestAnimationFrame(animateCount);
+  }, []);
+
   return (
     <div
       className="container-fluid py-5"
@@ -36,9 +72,9 @@ const Frame12 = () => {
               <div className="d-flex justify-content-center mb-3">
                 <div
                   className="p-3 rounded-circle"
-                  style={{ backgroundColor: "#D6E2FF" }}
+                  style={{ backgroundColor: "rgb(37 75 165)" }}
                 >
-                  <i className="bi bi-lightning-charge-fill text-primary fs-4"></i>
+                  <img src="../icons/variant=83.png" />
                 </div>
               </div>
               <h5 className="fw-bold">Instant Access</h5>
@@ -57,9 +93,9 @@ const Frame12 = () => {
               <div className="d-flex justify-content-center mb-3">
                 <div
                   className="p-3 rounded-circle"
-                  style={{ backgroundColor: "#D9F2E2" }}
+                  style={{ backgroundColor: "#3e933e" }}
                 >
-                  <i className="bi bi-person-check-fill text-success fs-4"></i>
+                  <img src="../icons/variant=84.png" />
                 </div>
               </div>
               <h5 className="fw-bold">VIP Support</h5>
@@ -79,9 +115,9 @@ const Frame12 = () => {
               <div className="d-flex justify-content-center mb-3">
                 <div
                   className="p-3 rounded-circle"
-                  style={{ backgroundColor: "#FFE6F0" }}
+                  style={{ backgroundColor: "#9a429a" }}
                 >
-                  <i className="bi bi-star-fill text-purple fs-4"></i>
+                  <img src="../icons/variant=67.png" />
                 </div>
               </div>
               <h5 className="fw-bold">Beta Pricing</h5>
@@ -111,7 +147,7 @@ const Frame12 = () => {
               className="input-group-text rounded-start-pill border-0 bg-white-50"
               id="email-icon"
             >
-              <i className="bi bi-envelope-fill text-white"></i>
+              <i className="bi bi-envelope-fill text-primary"></i>
             </span>
             <input
               type="email"
@@ -138,15 +174,15 @@ const Frame12 = () => {
       <div className="container text-center my-5">
         <div className="row g-4 justify-content-center">
           <div className="col-6 col-md-3">
-            <h3 className="fw-bold mb-1">10,000+</h3>
+            <h3 className="fw-bold mb-1">{counts.users.toLocaleString()}+</h3>
             <p className="text-secondary mb-0">Early Access Users</p>
           </div>
           <div className="col-6 col-md-3">
-            <h3 className="fw-bold mb-1">50+</h3>
+            <h3 className="fw-bold mb-1">{counts.partners}+</h3>
             <p className="text-secondary mb-0">Healthcare Partners</p>
           </div>
           <div className="col-6 col-md-3">
-            <h3 className="fw-bold mb-1">95%</h3>
+            <h3 className="fw-bold mb-1">{counts.satisfaction}%</h3>
             <p className="text-secondary mb-0">User Satisfaction</p>
           </div>
           <div className="col-6 col-md-3">

@@ -15,7 +15,7 @@ const Footer = () => {
                 <path d="M12 0L0 7L6 14V21L12 24L18 21V14L24 7L12 0Z" fill="#6A11CB"/>
               </svg>*/}
               <img src="../assets/footer.png" />
-              <h5 className="fw-bold mb-0">UMRA</h5>
+              {/*<h5 className="fw-bold mb-0">UMRA</h5>*/}
             </div>
             <p className="text-secondary small">A project by</p>
             <div className="d-flex align-items-center mb-3">

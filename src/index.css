@@ -475,7 +475,9 @@ border-radius: 10px;
 }
 
 
-
+.schedule:hover{
+  color: #222 !important;
+}
 
 
  .testimonial-img-box{
@@ -483,7 +485,9 @@ display: flex;
  }
 
 @media (max-width: 576px) {
-
+.visible-sm-none{
+  display: none !important;
+}
   
 }
 

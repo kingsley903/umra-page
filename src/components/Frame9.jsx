@@ -210,18 +210,33 @@ const Frame9 = () => {
           </p>
           <div className="d-flex flex-column flex-md-row justify-content-center mt-4">
             <button className="btn btn-light rounded-pill px-4 me-md-3 mb-2 mb-md-0 fw-bold">
-              <img src="../icons/variant=75.png" /> Request Investment Deck
+              <a
+                href="info@umraponcehealth.com"
+                className="text-dark text-decoration-none"
+              >
+                <img src="../icons/variant=75.png" /> Request Investment Deck
+              </a>
             </button>
             <button className="btn btn-outline-light rounded-pill px-4 fw-bold">
-              <span>
-                <img src="../icons/variant=7.png" /> Schedule Investment Meeting{" "}
-                <img src="../icons/variant=8.png" />
-              </span>
+              <a
+                href="info@umraponcehealth.com"
+                className="text-white text-decoration-none schedule"
+              >
+                <span>
+                  <img src="../icons/variant=7.png" /> Schedule Investment
+                  Meeting <img src="../icons/variant=8.png" />
+                </span>
+              </a>
             </button>
           </div>
           <p className="text-white-50 small mt-3">
             Series A: $1M target • 12-month ROI prospectus available • Q4 2024
             expansion planned
+          </p>
+          <p className="text-white-50 small mt-3">
+            UMRA has been accepted into the Acceleration program of{" "}
+            <a href="https://www.fastercapital.com">FasterCapital</a> and is
+            seeking a capital of $150k.
           </p>
         </div>
       </div>

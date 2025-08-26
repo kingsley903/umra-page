@@ -226,22 +226,22 @@ const Frame10 = () => {
             </div>
             <div className="col-md-6">
               <div className="row g-3 text-center">
-                <div className="col-lg-12 f10gap-s">
-                  <div className="col-6 me-3 py-4 rounded-3">
+                <div className="col-lg-12 f10gap-s justify-content-center">
+                  <div className="col-6 py-4 rounded-3">
                     <h5 className="fw-bold mb-1">256-bit</h5>
                     <p className="small mb-0">Encryption</p>
                   </div>
-                  <div className="col-6 me-3 py-4 rounded-3">
+                  <div className="col-6 py-4 rounded-3">
                     <h5 className="fw-bold mb-1">ISO 27001</h5>
                     <p className="small mb-0">Certified</p>
                   </div>
                 </div>
-                <div className="col-lg-12 f10gap-s">
-                  <div className="col-6 me-3 py-4 rounded-3">
+                <div className="col-lg-12 f10gap-s justify-content-center">
+                  <div className="col-6 py-4 rounded-3">
                     <h5 className="fw-bold mb-1">99.9%</h5>
                     <p className="small mb-0">Uptime SLA</p>
                   </div>
-                  <div className="col-6 me-3 py-4 rounded-3">
+                  <div className="col-6 py-4 rounded-3">
                     <h5 className="fw-bold mb-1">24/7</h5>
                     <p className="small mb-0">Monitoring</p>
                   </div>

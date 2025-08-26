@@ -160,7 +160,7 @@ const Frame12 = () => {
               className="btn btn-light rounded-end-pill px-4 fw-bold text-primary"
               type="button"
             >
-              Join Early Access <i className="bi bi-arrow-right"></i>
+              <span className="visible-sm-none">Join Early Access</span> <i className="bi bi-arrow-right"></i>
             </button>
           </div>
           <p className="small text-white-50 mb-0">

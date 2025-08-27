@@ -6,16 +6,21 @@ const HeroSection = () => {
     <div
       className="container-fluid d-flex justify-content-center align-items-center py-5"
       style={{
-        backgroundImage: "url(../assets/Section1.png)", // Replace with your background image path
+        backgroundImage: "url(../assets/Section1.png)",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="container">
         <div className="row justify-content-center text-center text-md-start">
           <div className="col-lg-6 col-md-8">
             <div className="d-flex align-items-center mb-3">
-              <img src="../assets/logo.png" alt="PonceHealth Logo" className="me-2" />
+              <img
+                src="../assets/logo.png"
+                alt="PonceHealth Logo"
+                className="me-2"
+              />
               <br />
               <p className="text-white col-lg-12">PonceHealth presents</p>
             </div>
@@ -46,7 +51,9 @@ const HeroSection = () => {
               </a>
             </div>
 
-            <p className="text-white">Join 10,000+ users • Free during beta • No credit card required </p>
+            <p className="text-white">
+              Join 10,000+ users • Free during beta • No credit card required{" "}
+            </p>
 
             <div className="frame2-boxes col-lg-12">
               <div className="col-lg-4 col-sm-12 frame2-boxes-gaps">
@@ -78,8 +85,10 @@ const HeroSection = () => {
               <i className="bi bi-shield-check-fill text-success fs-4 me-3"></i>
               <div className="text-secondary fw-bold flex-grow-1 text-center text-md-start">
                 HIPAA Compliant |{" "}
-                <span className="text-success">Healthcare Professional Trusted</span> |{" "}
-                <span className="text-primary">100% Secure</span>
+                <span className="text-success">
+                  Healthcare Professional Trusted
+                </span>{" "}
+                | <span className="text-primary">100% Secure</span>
               </div>
             </div>
           </div>

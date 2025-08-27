@@ -211,15 +211,15 @@ const Frame9 = () => {
           <div className="d-flex flex-column flex-md-row justify-content-center mt-4">
             <button className="btn btn-light rounded-pill px-4 me-md-3 mb-2 mb-md-0 fw-bold">
               <a
-                href="info@umraponcehealth.com"
-                className="text-dark text-decoration-none"
+                href="mailto:info@umraponcehealth.com"
+                className="text-dark text-decoration-none text-center"
               >
-                <img src="../icons/variant=75.png" /> Request Investment Deck
+                Request Investment Deck
               </a>
             </button>
             <button className="btn btn-outline-light rounded-pill px-4 fw-bold">
               <a
-                href="info@umraponcehealth.com"
+                href="mailto:info@umraponcehealth.com"
                 className="text-white text-decoration-none schedule"
               >
                 <span>

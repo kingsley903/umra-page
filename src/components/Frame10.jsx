@@ -159,50 +159,7 @@ const Frame10 = () => {
       </div>
 
       {/* Strategic Partnerships Section */}
-      <div className="container my-5">
-        <h2 className="fw-bold text-center mb-4">
-          Strategic Healthcare Partnerships
-        </h2>
-        <div className="row g-4 justify-content-center">
-          <div className="col-lg-6 mb-4">
-            <div className="p-4 bg-light rounded-3 shadow-sm border-start border-4 border-danger h-100">
-              <div className="d-flex align-items-center mb-3">
-                <i className="bi bi-truck fs-1 text-danger me-3"></i>
-                <div>
-                  <h5 className="fw-bold mb-0">SwiftAir Ambulance</h5>
-                  <p className="text-secondary small mb-0">
-                    Partnership for emergency response integration
-                  </p>
-                </div>
-              </div>
-              <p className="text-secondary mb-0">
-                Partnering for emergency response integration, enabling rapid
-                medical assistance when UMRA detects critical events, and
-                connecting users to emergency services across major African
-                cities.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-6 mb-4">
-            <div className="p-4 bg-light rounded-3 shadow-sm border-start border-4 border-primary h-100">
-              <div className="d-flex align-items-center mb-3">
-                <i className="bi bi-mic-fill fs-1 text-primary me-3"></i>
-                <div>
-                  <h5 className="fw-bold mb-0">Vocal Serve</h5>
-                  <p className="text-secondary small mb-0">
-                    Voice-enabled health assistance integration
-                  </p>
-                </div>
-              </div>
-              <p className="text-secondary mb-0">
-                Voice-enabled health assistance integration, making UMRA
-                accessible through natural language interactions. Doctors can
-                give advice or book appointments via simple voice commands.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Data Security Banner */}
       <div className="container mt-5">
